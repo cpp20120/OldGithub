@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="In_out">
+      <UniqueIdentifier>{a4af9d59-d806-46dc-ae53-b0fc4e296b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Testing">
+      <UniqueIdentifier>{9784a89c-1e35-409d-99a9-d1ce1363bf28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parsing">
+      <UniqueIdentifier>{6cf58b3c-9ae3-4d28-8f89-688e239c4d4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine_simulator_dto.h">
+      <Filter>Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_simulator_parser.h">
+      <Filter>Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="parse_rules.h">
+      <Filter>Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_simulator.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_simulator_interface.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="test_engine.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="torque_from_speed_converter.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine_simulator_parser.cpp">
+      <Filter>Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_rules.cpp">
+      <Filter>Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>In_out</Filter>
+    </ClCompile>
+    <ClCompile Include="test_engine.cpp">
+      <Filter>Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_simulator.cpp">
+      <Filter>Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="torque_from_speed_converter.cpp">
+      <Filter>Testing</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
