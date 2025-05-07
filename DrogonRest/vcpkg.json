@@ -1,0 +1,10 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "builtin-baseline": "6760f636e7bcd0dd034c5c0906f6174009465c29",
+  "dependencies": [
+    "drogon",
+    "jwt-cpp",
+    "libxcrypt"
+  ]
+}
