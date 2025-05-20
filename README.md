@@ -8,7 +8,7 @@ development standards.
 
 ## 📌 Important warnings
 
-- **This is not production code** - everything here should be considered as an example of "how not to do"
+- **This is not production code** - a half of code here should be considered as an example of "how not to do"
 - **Outdated technologies** - many projects use deprecated libraries and vulnerable dependencies
 - **"- **"- **"- **" What is this ****?"** - in some places the code is so bad that even now I don't remember what it was written under.
 - **Tests? What kind of tests?** - most projects do not have tests
